@@ -11,6 +11,7 @@ import (
 // main é o ponto de entrada de um programa executável em Go.
 func main() {
 	// os.Args[0] é o programa e os.Args[1] deve ser o caminho do CSV.
+	// teste branchs
 	if len(os.Args) != 2 {
 		fmt.Fprintf(os.Stderr, "usage: go run ./versions/v1 <file.csv>\n")
 		os.Exit(2)
